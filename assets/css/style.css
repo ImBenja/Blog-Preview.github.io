@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+body {
+  margin: 0;
+  background: hsl(47, 88%, 63%);
+  font-family: "Figtree";
+}
+
+main {
+  margin: 5rem 0 0 0;
+  padding: 0 1.5rem;
+}
+
+.Container-Card {
+  background: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 1rem 1rem;
+  box-shadow: 10px 10px black;
+  transition: all 0.5s ease;
+}
+
+.Container-Card:hover {
+  box-shadow: 15px 15px;
+}
+
+.Img-article {
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+  height: 200px;
+}
+
+.Card-Text {
+  margin: 1.5rem 0 0 0.5rem;
+}
+
+.Learning-Contai {
+  background: hsl(47, 88%, 63%);
+  border-radius: 5px;
+  padding: 0.5rem 0.8rem;
+  width: 60px;
+  margin: 0 0 1rem 0;
+}
+
+.Learning-Contai .Learning {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  text-align: center;
+  font-size: 1em;
+}
+
+.Publicacion {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+
+.Title {
+  color: black;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+.Title:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+.Sub-Tex {
+  color: hsl(0, 0%, 50%);
+  font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+
+.Persona-Contai {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.Persona-Contai .Avatar {
+  height: 50px;
+}
+
+.Persona-Contai .Nombre {
+  color: black;
+  font-weight: 800;
+  font-size: 1.2em;
+}
+
+@media (min-width: 1024px) {
+  main {
+    padding: 0 35rem;
+  }
+
+  .Img-article {
+    height: 220px;
+  }
+}
